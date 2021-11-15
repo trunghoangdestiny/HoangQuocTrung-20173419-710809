@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd8d8" height="84.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+      <ImageView fitHeight="84.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../aims_label.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="151.0" layoutY="30.0" />
+   </children>
+</AnchorPane>
